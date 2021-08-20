@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import reducers from "./reducers/index";
+import { setSales } from "./actions/sale";
+import sales from "./data.json";
+import PivotTable from "./components/PivotTable";
+import "./styles/App.css";
 
-function App() {
+export const App: React.FC = () => {
+  const store = createStore(reducers, composeWithDevTools(applyMiddleware()));
+  store.dispatch(setSales(sales));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <PivotTable />
+    </Provider>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,30 @@
+.header {
+  background: var(--dark-blue-color);
+  height: 105px;
+  display: flex;
+  padding-top: 7px;
+}
+
+.title {
+  color: var(--white-color);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.item {
+  color: rgba(250, 235, 215, 0.774);
+  width: 120px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-state {
+  position: relative;
+  left: 8%;
+}

@@ -1,0 +1,33 @@
+.cell {
+  width: 120px;
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(78, 78, 78);
+  margin: 0px;
+}
+
+.cell-dark {
+  background-color: var(--dark-gray-color);
+}
+
+.cell-light {
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.text-dark {
+  color: #000000;
+  font-weight: bold;
+}
+
+.text-light {
+  color: var(--dark-gray-color);
+}
+
+.cell-double {
+  width: 240px;
+}
+
+.cell-total {
+  text-align: center;
+}
