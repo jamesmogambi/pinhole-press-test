@@ -5,11 +5,3 @@ export const setSales = (payload: ISale[]) => {
   };
   return action;
 };
-
-export const getSales = () => {
-  const action: GetAction = {
-    type: "GET_SALES",
-    payload: null,
-  };
-  return action;
-};

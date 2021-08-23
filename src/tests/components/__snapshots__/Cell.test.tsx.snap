@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render icon and category name  1`] = `
+<div
+  className="text-dark cell-icon cell"
+>
+  <img
+    alt="icon"
+    className="icon"
+    src="icon.svg"
+  />
+  Furniture
+</div>
+`;
+
+exports[`should correctly render subcategory name 1`] = `
+<div
+  className="null cell"
+>
+  Bookcases
+</div>
+`;
+
+exports[`should correctly render subtotal value 1`] = `
+<div
+  className="cell-light cell"
+>
+  7550
+</div>
+`;
+
+exports[`should correctly render total header 1`] = `
+<div
+  className="text-dark cell-double cell"
+>
+  Furniture total
+</div>
+`;
+
+exports[`should correctly render total value 1`] = `
+<div
+  className="text-dark cell-dark cell-total cell"
+>
+  2590
+</div>
+`;

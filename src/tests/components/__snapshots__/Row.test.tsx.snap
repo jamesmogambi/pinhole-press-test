@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Row with props 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <Connect(RowItem)
+      category={
+        Object {
+          "name": "Furniture",
+        }
+      }
+      key="0"
+      states={
+        Array [
+          Object {
+            "city": "Decatur",
+            "state": "Alabama",
+          },
+          Object {
+            "city": "Gilbert",
+            "state": "Arizona",
+          },
+          Object {
+            "city": "Fayetteville",
+            "state": "Arkansas",
+          },
+        ]
+      }
+    />
+    <Connect(RowItem)
+      category={
+        Object {
+          "name": "Technology",
+        }
+      }
+      key="1"
+      states={
+        Array [
+          Object {
+            "city": "Decatur",
+            "state": "Alabama",
+          },
+          Object {
+            "city": "Gilbert",
+            "state": "Arizona",
+          },
+          Object {
+            "city": "Fayetteville",
+            "state": "Arkansas",
+          },
+        ]
+      }
+    />
+    <div
+      className="row-items item-border"
+    >
+      <Cell
+        icon={false}
+        styleProp="text-dark cell-double"
+        value="Grand Total"
+      />
+      <Cell
+        icon={false}
+        key="0"
+        styleProp="text-dark cell-dark cell-total"
+        value={1694}
+      />
+      <Cell
+        icon={false}
+        key="1"
+        styleProp="text-dark cell-dark cell-total"
+        value={571}
+      />
+      <Cell
+        icon={false}
+        key="2"
+        styleProp="text-dark cell-dark cell-total"
+        value={0}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Row with props 1`] = `
+<Fragment>
+  <div
+    className="scroll bg"
+  >
+    <Header
+      states={
+        Array [
+          Object {
+            "city": "Decatur",
+            "state": "Alabama",
+          },
+          Object {
+            "city": "Gilbert",
+            "state": "Arizona",
+          },
+          Object {
+            "city": "Fayetteville",
+            "state": "Arkansas",
+          },
+        ]
+      }
+    />
+    <Row
+      categories={
+        Array [
+          Object {
+            "name": "Furniture",
+          },
+          Object {
+            "name": "Technology",
+          },
+        ]
+      }
+      sales={
+        Array [
+          Object {
+            "category": "Furniture",
+            "city": "Decatur",
+            "country": "United States",
+            "customerId": "CG-12520",
+            "customerName": "Claire Gute",
+            "discount": 0,
+            "orderDate": "11/8/16",
+            "orderId": "CA-2016-152156",
+            "postalCode": 42420,
+            "productId": "FUR-BO-10001798",
+            "productName": "Bush Somerset Collection Bookcase",
+            "profit": 41.9136,
+            "quantity": 2,
+            "region": "South",
+            "rowId": 1,
+            "sales": 261.96,
+            "segment": "Consumer",
+            "shipDate": "11/11/16",
+            "shipMode": "Second Class",
+            "state": "Alabama",
+            "subCategory": "Bookcases",
+          },
+          Object {
+            "category": "Furniture",
+            "city": "Decatur",
+            "country": "United States",
+            "customerId": "CG-12520",
+            "customerName": "Claire Gute",
+            "discount": 0,
+            "orderDate": "11/8/16",
+            "orderId": "CA-2016-152156",
+            "postalCode": 42420,
+            "productId": "FUR-CH-10000454",
+            "productName": "Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back",
+            "profit": 219.582,
+            "quantity": 3,
+            "region": "South",
+            "rowId": 2,
+            "sales": 731.94,
+            "segment": "Consumer",
+            "shipDate": "11/11/16",
+            "shipMode": "Second Class",
+            "state": "Alabama",
+            "subCategory": "Bookcases",
+          },
+          Object {
+            "category": "Furniture",
+            "city": "Gilbert",
+            "country": "United States",
+            "customerId": "DV-13045",
+            "customerName": "Darrin Van Huff",
+            "discount": 0,
+            "orderDate": "6/12/16",
+            "orderId": "CA-2016-138688",
+            "postalCode": 90036,
+            "productId": "OFF-LA-10000240",
+            "productName": "Self-Adhesive Address Labels for Typewriters by Universal",
+            "profit": 6.8714,
+            "quantity": 2,
+            "region": "West",
+            "rowId": 3,
+            "sales": 14.62,
+            "segment": "Corporate",
+            "shipDate": "6/16/16",
+            "shipMode": "Second Class",
+            "state": "Arizona",
+            "subCategory": "Chairs",
+          },
+          Object {
+            "category": "Technology",
+            "city": "Los Angeles",
+            "country": "United States",
+            "customerId": "SO-20335",
+            "customerName": "Sean O'Donnell",
+            "discount": 0.45,
+            "orderDate": "10/11/15",
+            "orderId": "US-2015-108966",
+            "postalCode": 33311,
+            "productId": "FUR-TA-10000577",
+            "productName": "Bretford CR4500 Series Slim Rectangular Table",
+            "profit": -383.031,
+            "quantity": 5,
+            "region": "South",
+            "rowId": 4,
+            "sales": 957.5775,
+            "segment": "Consumer",
+            "shipDate": "10/18/15",
+            "shipMode": "Standard Class",
+            "state": "California",
+            "subCategory": "Accessories",
+          },
+          Object {
+            "category": "Technology",
+            "city": "Gilbert",
+            "country": "United States",
+            "customerId": "SO-20335",
+            "customerName": "Sean O'Donnell",
+            "discount": 0.45,
+            "orderDate": "10/11/15",
+            "orderId": "US-2015-108966",
+            "postalCode": 33311,
+            "productId": "FUR-TA-10000577",
+            "productName": "Bretford CR4500 Series Slim Rectangular Table",
+            "profit": -383.031,
+            "quantity": 5,
+            "region": "South",
+            "rowId": 5,
+            "sales": 556.3452,
+            "segment": "Consumer",
+            "shipDate": "10/18/15",
+            "shipMode": "Standard Class",
+            "state": "Arizona",
+            "subCategory": "Accessories",
+          },
+          Object {
+            "category": "Furniture",
+            "city": "Decatur",
+            "country": "United States",
+            "customerId": "CG-12520",
+            "customerName": "Claire Gute",
+            "discount": 0,
+            "orderDate": "11/8/16",
+            "orderId": "CA-2016-152156",
+            "postalCode": 42420,
+            "productId": "FUR-BO-10001798",
+            "productName": "Bush Somerset Collection Bookcase",
+            "profit": 41.9136,
+            "quantity": 2,
+            "region": "South",
+            "rowId": 6,
+            "sales": 700.33,
+            "segment": "Consumer",
+            "shipDate": "11/11/16",
+            "shipMode": "Second Class",
+            "state": "Alabama",
+            "subCategory": "Bookcases",
+          },
+        ]
+      }
+      states={
+        Array [
+          Object {
+            "city": "Decatur",
+            "state": "Alabama",
+          },
+          Object {
+            "city": "Gilbert",
+            "state": "Arizona",
+          },
+          Object {
+            "city": "Fayetteville",
+            "state": "Arkansas",
+          },
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

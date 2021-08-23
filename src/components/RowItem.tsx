@@ -21,7 +21,9 @@ export const RowItem: React.FC<RowItemProp> = (props) => {
     return states.map((s, i) => {
       let { state } = s;
       let subTotal = getSubTotal(item, state, sales);
-      return <Cell style="cell-light" key={i} value={subTotal} />;
+      return (
+        <Cell styleProp="cell-light" key={i} value={subTotal} icon={false} />
+      );
     });
   };
 
@@ -30,18 +32,27 @@ export const RowItem: React.FC<RowItemProp> = (props) => {
       let { state } = s;
       let total = getTotal(state, category, sales);
       return (
-        <Cell key={i} style="text-dark cell-dark cell-total" value={total} />
+        <Cell
+          key={i}
+          styleProp="text-dark cell-dark cell-total"
+          value={total}
+          icon={false}
+        />
       );
     });
   };
   return (
     <div>
       <div className="row-items">
-        <Cell value={category.name} style="text-dark" />
+        <Cell
+          value={category.name}
+          styleProp="text-dark cell-icon"
+          icon={true}
+        />
         <div className="column">
           {subcategories.map((item, i) => (
             <div key={i} className="row-items">
-              <Cell style="shadow" value={item.subCategory} />
+              <Cell styleProp={null} value={item.subCategory} icon={false} />
               <div className="row-items">{renderSubTotal(item)}</div>
             </div>
           ))}
@@ -49,8 +60,9 @@ export const RowItem: React.FC<RowItemProp> = (props) => {
       </div>
       <div className="row-items">
         <Cell
-          style="text-dark cell-double shadow"
+          styleProp="text-dark cell-double"
           value={`${category.name} total`}
+          icon={false}
         />
         <div className="row-items">{renderTotal()}</div>
       </div>

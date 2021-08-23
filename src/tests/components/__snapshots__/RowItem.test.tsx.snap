@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render RowItem with category ,subcategories , subtotal and total 1`] = `
+<div>
+  <div
+    className="row-items"
+  >
+    <Cell
+      icon={true}
+      styleProp="text-dark cell-icon"
+      value="Furniture"
+    />
+    <div
+      className="column"
+    >
+      <div
+        className="row-items"
+        key="0"
+      >
+        <Cell
+          icon={false}
+          styleProp={null}
+          value="Bookcases"
+        />
+        <div
+          className="row-items"
+        >
+          <Cell
+            icon={false}
+            key="0"
+            styleProp="cell-light"
+            value={1694}
+          />
+          <Cell
+            icon={false}
+            key="1"
+            styleProp="cell-light"
+            value={0}
+          />
+          <Cell
+            icon={false}
+            key="2"
+            styleProp="cell-light"
+            value={0}
+          />
+        </div>
+      </div>
+      <div
+        className="row-items"
+        key="1"
+      >
+        <Cell
+          icon={false}
+          styleProp={null}
+          value="Chairs"
+        />
+        <div
+          className="row-items"
+        >
+          <Cell
+            icon={false}
+            key="0"
+            styleProp="cell-light"
+            value={0}
+          />
+          <Cell
+            icon={false}
+            key="1"
+            styleProp="cell-light"
+            value={15}
+          />
+          <Cell
+            icon={false}
+            key="2"
+            styleProp="cell-light"
+            value={0}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row-items"
+  >
+    <Cell
+      icon={false}
+      styleProp="text-dark cell-double"
+      value="Furniture total"
+    />
+    <div
+      className="row-items"
+    >
+      <Cell
+        icon={false}
+        key="0"
+        styleProp="text-dark cell-dark cell-total"
+        value={1694}
+      />
+      <Cell
+        icon={false}
+        key="1"
+        styleProp="text-dark cell-dark cell-total"
+        value={15}
+      />
+      <Cell
+        icon={false}
+        key="2"
+        styleProp="text-dark cell-dark cell-total"
+        value={0}
+      />
+    </div>
+  </div>
+</div>
+`;

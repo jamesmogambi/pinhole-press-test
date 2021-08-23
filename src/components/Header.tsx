@@ -14,9 +14,9 @@ const Header: React.FC<{ states: IState[] }> = ({ states }) => {
         <div className="container">
           <span className="title title-state">STATE</span>
           <div className="items">
-            {states.map((city, i) => (
+            {states.map((s, i) => (
               <span key={i} className="item">
-                {city.state}
+                {s.state}
               </span>
             ))}
           </div>

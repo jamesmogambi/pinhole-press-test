@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Header with states 1`] = `
+<Fragment>
+  <div
+    className="header"
+  >
+    <div
+      className="container shadow"
+    >
+      <span
+        className="title"
+      >
+        PRODUCTS
+      </span>
+      <div
+        className="items"
+      >
+        <span
+          className="item"
+        >
+          Category
+        </span>
+        <span
+          className="item"
+        >
+          Sub-Category
+        </span>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <span
+        className="title title-state"
+      >
+        STATE
+      </span>
+      <div
+        className="items"
+      >
+        <span
+          className="item"
+          key="0"
+        >
+          Alabama
+        </span>
+        <span
+          className="item"
+          key="1"
+        >
+          Arizona
+        </span>
+        <span
+          className="item"
+          key="2"
+        >
+          Arkansas
+        </span>
+        <span
+          className="item"
+          key="3"
+        >
+          California
+        </span>
+        <span
+          className="item"
+          key="4"
+        >
+          Colorado
+        </span>
+        <span
+          className="item"
+          key="5"
+        >
+          Connecticut
+        </span>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

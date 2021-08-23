@@ -30,16 +30,9 @@ type SetAction = {
   type: string;
   payload: ISale[];
 };
-
-type GetAction = {
-  type: string;
-  payload: any;
-};
-
 // dispatch types
-type DispatchType = (args: GetAction) => GetAction;
-
-type SaleActionTypes = SetAction | GetAction;
+type DispatchType = (args: GetAction) => SetAction;
+type SaleActionTypes = SetAction;
 
 // city state types
 interface IState {

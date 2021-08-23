@@ -12,7 +12,6 @@
 }
 .container {
   padding-left: 20px;
-  /* height: 100%; */
 }
 
 .bg {
@@ -23,4 +22,10 @@
   display: flex;
   flex-wrap: wrap;
   /* overflow-x: auto; */
+}
+
+.item-border {
+  border-top: solid;
+  border-width: 0.5px;
+  border-color: gray;
 }

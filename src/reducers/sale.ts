@@ -1,16 +1,14 @@
 const initialState: SaleState = {
   sales: [],
 };
-export default (
-  state: SaleState = initialState,
-  action: SaleActionTypes
-): SaleState => {
+const sale = (state: SaleState = initialState, action: any): SaleState => {
   switch (action.type) {
     case "SET_SALES":
       return { ...state, sales: action.payload };
-    case "GET_SALES":
-      return { ...state };
+
     default:
       return state;
   }
 };
+
+export default sale;

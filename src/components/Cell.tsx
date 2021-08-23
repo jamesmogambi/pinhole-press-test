@@ -1,12 +1,19 @@
 import React from "react";
+import cellIcon from "../icon.svg";
 
 type CellProp = {
   value: string | number;
-  style: any;
+  icon: boolean;
+  styleProp: any;
 };
 
-const Cell: React.FC<CellProp> = ({ value, style }) => {
-  return <div className={`${style} cell`}>{value}</div>;
+const Cell: React.FC<CellProp> = ({ value, styleProp, icon }) => {
+  return (
+    <div className={`${styleProp} cell`}>
+      {icon && <img src={cellIcon} alt="icon" className="icon" />}
+      {value}
+    </div>
+  );
 };
 
 export default Cell;

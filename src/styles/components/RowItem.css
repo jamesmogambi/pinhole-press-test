@@ -1,9 +1,12 @@
-.row-items {
+.row-items,
+.column {
   display: flex;
+}
+
+.row-items {
   flex-direction: row;
 }
 
 .column {
-  display: flex;
   flex-direction: column;
 }

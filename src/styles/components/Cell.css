@@ -31,3 +31,12 @@
 .cell-total {
   text-align: center;
 }
+
+.icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.cell-icon {
+  display: flex;
+}

@@ -53,3 +53,10 @@ export const getTotal = (state: string, category: Category, sales: ISale[]) => {
     .reduce((acc, current) => acc + current.sales, 0);
   return Math.round(total);
 };
+
+export const getGrandTotal = (state: string, sales: ISale[]) => {
+  let total = sales
+    .filter((s) => s.state === state)
+    .reduce((acc, current) => acc + current.sales, 0);
+  return Math.round(total);
+};
